@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# AI-Powered Interview Assistant (Crisp)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React web app that leverages AI to conduct timed interviews with candidates, helping interviewers evaluate and score them efficiently.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Upload and parse resumes automatically.
+- AI-generated interview questions sorted by difficulty (Easy, Medium, Hard).
+- Timed interview sessions with pause/resume functionality.
+- Interviewer dashboard with candidate list, detailed views, scores, and chat history.
+- Ability to delete interviewees securely after interviewer login.
+- Local persistence of interview state.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/rupa510/ai-interview-assistant.git
 
-### `npm run build`
+text
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd ai-interview-assistant
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+text
 
-### `npm run eject`
+3. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+text
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
+text
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app will run locally at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Upload your resume in the interviewee tab to start the interview process.
+- Answer AI-generated questions within timed intervals.
+- Interviewers can log in using credentials to access the dashboard.
+- From the dashboard, interviewers can view candidates, score answers, and delete candidate profiles securely.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- React.js (Front-end UI)
+- Redux Toolkit (State management)
+- Bootstrap 5 (Styling)
+- redux-persist (State persistence)
+- OpenAI API (AI question generation)
+- Vercel/Netlify (Deployment)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by Rupasree - [GitHub Profile](https://github.com/rupa510)
+
+---
+
+Feel free to contribute, raise issues or suggest features!
