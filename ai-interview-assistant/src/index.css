@@ -1,0 +1,7 @@
+.chat-window {
+  background: #fff;
+  min-height: 350px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  max-width: 100%;
+}
+.modal-backdrop.show { opacity: 0.15 !important;}
